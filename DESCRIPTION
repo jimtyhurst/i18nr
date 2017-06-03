@@ -1,0 +1,20 @@
+Package: i18nr
+Type: Package
+Title: Options for Internationalizing a Function
+Version: 0.1.0
+Authors@R: person("Jim", "Tyhurst", email = "jim@tyhurst.com", role = c("aut", "cre"))
+Description: Code for presentation at CascadiaRConf (https://cascadiarconf.com/).
+    This code demonstrates several options for internationalizing a function based on the way parameters are passed to that function.
+License: file LICENSE
+Copyright: 2017 Jim Tyhurst
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.3.2)
+Suggests:
+    devtools,
+    knitr,
+    rmarkdown,
+    roxygen2,
+    testthat
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
